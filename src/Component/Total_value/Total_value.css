@@ -1,0 +1,27 @@
+.details-box{
+  margin-top: 3rem;
+  border: 2px solid #40f3f3;
+  width: 15rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding:0.8rem;
+  margin-bottom: 2rem;
+  border-radius: 2rem;
+  color:white;
+  gap: 0.1rem;
+  box-shadow: 0 0 31px rgb(149 100 211 / 50%);
+  background: linear-gradient(270deg, rgba(6, 97, 0, 0.8) 0%, rgba(0, 82, 73, 0.8) 50%) padding-box padding-box, linear-gradient(45deg, rgb(137, 210, 243), rgb(166, 124, 255)) border-box border-box !important;;
+
+  >h1{
+    font-size: 1rem;
+    font-weight: 700;
+  }
+  >h3{
+    font-size: 0.8rem;
+  }
+
+}
